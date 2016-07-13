@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta charset="UTF-8">
+  <title>DankCode Cool Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="form-wrapper">
+
+    <form>
+      <input name="option" type="radio" id="signin" value="signin" checked>
+      <label for="signin" class="option option-login">Sign in</label>
+
+      <input name="option" type="radio" id="signup" value="signup">
+      <label for="signup" class="option option-sign">Sign up</label>
+
+      <input name="option" type="radio" id="reset" value="reset">
+      <label for="reset" class="option option-reset">Reset password</label>
+
+      <div class="form-fields">
+        <div class="input-container signin">
+          <label>Email</label>
+          <input type="email">
+        </div>
+        <div class="input-container signin">
+          <label>Password</label>
+          <input type="password">
+        </div>
+
+        <div class="input-container signup">
+          <label>Email</label>
+          <input type="email">
+        </div>
+        <div class="input-container signup">
+          <label>Password</label>
+          <input type="password">
+        </div>
+        <div class="input-container signup">
+          <label>Repeat password</label>
+          <input type="password">
+        </div>
+
+        <div class="input-container reset">
+          <label>Email</label>
+          <input type="email">
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" name="signin">Sign in</button>
+        <button type="submit" name="signup">Sign up</button>
+        <button type="submit" name="reset">Reset</button>
+      </div>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
